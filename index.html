@@ -63,4 +63,380 @@
             <div class="flex items-center space-x-4 space-x-reverse">
                 <div class="text-4xl text-red-600 animate-pulse">❤</div>
                 <div>
- ... (TRUNCATED FOR BREVITY) ... </html>
+                    <h1 class="text-2xl font-bold text-gray-800">سياسات بنك الدم 2023</h1>
+                    <p class="text-sm text-gray-500">الهيئة العامة للتأمين الصحي - الإدارة العامة للخدمات الطبية</p>
+                </div>
+            </div>
+            <button onclick="window.print()" class="hidden md:block bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-2 px-4 rounded transition">
+                طباعة التقرير
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="container mx-auto px-4 mt-6">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
+            <button onclick="switchTab('principles')" id="tab-principles" class="active-tab py-3 px-4 rounded-t-lg font-bold shadow-sm transition duration-300">
+                الميثاق الأخلاقي
+            </button>
+            <button onclick="switchTab('operations')" id="tab-operations" class="inactive-tab py-3 px-4 rounded-t-lg font-bold shadow-sm transition duration-300">
+                حركة المخزون
+            </button>
+            <button onclick="switchTab('quality')" id="tab-quality" class="inactive-tab py-3 px-4 rounded-t-lg font-bold shadow-sm transition duration-300">
+                ضبط الجودة والإعدام
+            </button>
+            <button onclick="switchTab('kpi')" id="tab-kpi" class="inactive-tab py-3 px-4 rounded-t-lg font-bold shadow-sm transition duration-300">
+                مؤشرات الأداء
+            </button>
+            <button onclick="switchTab('pdf')" id="tab-pdf" class="inactive-tab py-3 px-4 rounded-t-lg font-bold shadow-sm transition duration-300">
+                الوثيقة الأصلية
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto px-4 py-6 bg-white shadow-lg rounded-b-lg rounded-tr-lg min-h-[600px] mb-10">
+
+        <!-- SECTION 1: ETHICAL PRINCIPLES -->
+        <section id="section-principles" class="fade-in">
+            <div class="mb-8 border-b pb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">أولاً: القواعد والمبادئ الأخلاقية للتبرع</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    يستعرض هذا القسم الأسس الإنسانية التي تقوم عليها منظومة بنوك الدم في مصر. الهدف هو ضمان سلامة المتبرع والمنتفع والمنظومة.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">🤝</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">المسؤولية المجتمعية</h3>
+                    <p class="text-gray-600 text-sm">التبرع بالدم واجب على كل إنسان لائق صحياً، إعلاءً لقيم الإيثار والتكافل بين أفراد المجتمع.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">🚫💰</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">المجانية التامة</h3>
+                    <p class="text-gray-600 text-sm">يجب أن يكون التبرع شرفياً وطوعياً تماماً. يُحظر تلقي أي مقابل مادي أو عيني (هدايا).</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">🛡️</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">سلامة المتبرع</h3>
+                    <p class="text-gray-600 text-sm">الالتزام بالمعايير الطبية لحماية المتبرع، وتوعيته بالمخاطر والفوائد قبل البدء بالإجراء.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">📝</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">الإقرار والموافقة</h3>
+                    <p class="text-gray-600 text-sm">يجب على المتبرع تقديم إقرار كتابي بالموافقة على سحب الدم وإجراء التحاليل اللازمة.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">🔄</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">الاستبدال العائلي</h3>
+                    <p class="text-gray-600 text-sm">في حالات التبرع للاستبدال، يُفضل أن يكون التبرع \"غير موجه\" لمريض بعينه لضمان المراجعة والحوكمة.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-red-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition cursor-pointer group">
+                    <div class="text-3xl mb-4 text-red-600">🥤</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-red-600 transition">المرطبات</h3>
+                    <p class="text-gray-600 text-sm">تقديم وجبة خفيفة أو مشروب للمتبرع بعد العملية لا يتعارض مع مبدأ التطوع والشرفية.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: OPERATIONS -->
+        <section id="section-operations" class="hidden fade-in">
+            <div class="mb-8 border-b pb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">ثانياً: حركة المخزون (الوارد والمنصرف)</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    يوضح هذا القسم آليات تتبع وحدات الدم. يتم تسجيل كل وحدة تدخل البنك (سواء تبرع أو شراء) وكل وحدة تخرج، لضمان الشفافية والتحكم في الرصيد.
+                </p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- Inputs Column -->
+                <div class="lg:w-1/2 space-y-4">
+                    <h3 class="font-bold text-lg text-red-700 mb-4 border-r-4 border-red-500 pr-3">مصادر الوارد</h3>
+                    <div class="bg-blue-50 p-4 rounded-lg flex items-center justify-between">
+                        <div>
+                            <span class="block font-bold text-gray-700">تبرعات داخلية</span>
+                            <span class="text-xs text-gray-500">حملات التبرع داخل المستشفى</span>
+                        </div>
+                        <div class="text-2xl text-blue-600">🏥</div>
+                    </div>
+                    <div class="bg-green-50 p-4 rounded-lg flex items-center justify-between">
+                        <div>
+                            <span class="block font-bold text-gray-700">بنوك دم خارجية</span>
+                            <span class="text-xs text-gray-500">توريد من بنوك أخرى</span>
+                        </div>
+                        <div class="text-2xl text-green-600">🚑</div>
+                    </div>
+                    <div class="my-6 flex justify-center text-gray-300 text-2xl">⬇️</div>
+                    <h3 class="font-bold text-lg text-red-700 mb-4 border-r-4 border-red-500 pr-3">قواعد المنصرف</h3>
+                    <div class="bg-gray-50 p-4 rounded-lg border-r-4 border-gray-400">
+                        <h4 class="font-bold text-sm text-gray-800">الصرف المتوافق (Cross-Matched)</h4>
+                        <p class="text-xs text-gray-600 mt-1">يتم بعد إجراء اختبارات التوافق الكاملة.</p>
+                    </div>
+                    <div class="bg-red-50 p-4 rounded-lg border-r-4 border-red-600">
+                        <h4 class="font-bold text-sm text-red-800">الصرف الطارئ (Emergency Release)</h4>
+                        <p class="text-xs text-red-600 mt-1">يتم صرف وحدات بدون تحضير مسبق في الحالات الحرجة (غالباً O Negative).</p>
+                    </div>
+                </div>
+                <!-- Simulation Visualization -->
+                <div class="lg:w-1/2 bg-gray-900 rounded-xl p-6 text-white relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-2 bg-red-600"></div>
+                    <h3 class="text-xl font-bold mb-6 text-center">محاكاة الرصيد</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>إجمالي الوارد (Total In)</span>
+                                <span id="total-in-display">1200 وحدة</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-500 h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>المنصرف للمرضى (Dispensed)</span>
+                                <span id="dispensed-display">950 وحدة</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-green-500 h-2.5 rounded-full" style="width: 79%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>الهالك / المعدم (Discarded)</span>
+                                <span id="discarded-display">50 وحدة</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-red-500 h-2.5 rounded-full" style="width: 4%"></div>
+                            </div>
+                        </div>
+                        <div class="mt-8 p-4 bg-gray-800 rounded-lg text-center">
+                            <span class="block text-gray-400 text-sm">الرصيد الحالي المتاح</span>
+                            <span class="text-4xl font-bold text-white">200</span>
+                            <span class="text-sm text-gray-400">وحدة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: QUALITY CONTROL -->
+        <section id="section-quality" class="hidden fade-in">
+            <div class="mb-8 border-b pb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">ثالثاً: معايير الجودة وأسباب الإعدام</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    لا يتم قبول كل وحدة دم. يطبق بنك الدم معايير صارمة لاستبعاد الوحدات غير الصالحة للسلامة الفعلية للمريض.
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-8 items-start">
+                <!-- Chart Section -->
+                <div class="w-full md:w-1/2">
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                        <h3 class="text-center font-bold text-gray-700 mb-4">توزيع أسباب إعدام الوحدات (نموذج محاكاة)</h3>
+                        <div class="chart-container">
+                            <canvas id="rejectionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!-- Explanation Section -->
+                <div class="w-full md:w-1/2 bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <h3 class="font-bold text-lg text-red-700 mb-4">تفاصيل أسباب الرفض</h3>
+                    <div id="rejection-details" class="space-y-4">
+                        <p class="text-gray-500 italic text-center py-10">اضغط على أي جزء من المخطط البياني لعرض التفاصيل والمعايير الخاصة به.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: KPIs -->
+        <section id="section-kpi" class="hidden fade-in">
+            <div class="mb-8 border-b pb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">رابعاً: مؤشرات الأداء (KPIs)</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    تعتمد الإدارة على معادلات محددة لقياس كفاءة بنك الدم وجودة التبرعات. يمكنك استخدام الأدوات أدناه للحساب الفوري.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- KPI 1: Viral Positivity Rate -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-yellow-500">
+                    <h3 class="font-bold text-lg text-gray-800 mb-4">معدل إيجابية الفيروسات</h3>
+                    <p class="text-sm text-gray-500 mb-4">المعادلة: (عدد الوحدات الإيجابية ÷ إجمالي التبرعات) × 100</p>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-600 mb-1">إجمالي التبرعات</label>
+                            <input type="number" id="total-donations-input" value="1000" class="w-full p-2 border rounded focus:ring-2 focus:ring-yellow-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-600 mb-1">عدد الحالات الإيجابية</label>
+                            <input type="number" id="positive-cases-input" value="15" class="w-full p-2 border rounded focus:ring-2 focus:ring-yellow-500 outline-none">
+                        </div>
+                        <button onclick="calculateViralRate()" class="w-full bg-yellow-500 text-white font-bold py-2 rounded hover:bg-yellow-600 transition">احسب المعدل</button>
+                    </div>
+                    <div class="mt-4 p-3 bg-yellow-50 rounded text-center">
+                        <span class="block text-gray-600 text-xs">النتيجة</span>
+                        <span id="viral-rate-result" class="text-2xl font-bold text-yellow-700">1.5%</span>
+                    </div>
+                </div>
+                <!-- KPI 2: Expiry Rate -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-red-500">
+                    <h3 class="font-bold text-lg text-gray-800 mb-4">معدل انتهاء الصلاحية</h3>
+                    <p class="text-sm text-gray-500 mb-4">المعادلة: (عدد الوحدات المنتهية ÷ إجمالي الوارد من نفس المكون) × 100</p>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-600 mb-1">إجمالي الوارد</label>
+                            <input type="number" id="total-stock-input" value="500" class="w-full p-2 border rounded focus:ring-2 focus:ring-red-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-600 mb-1">عدد الوحدات المنتهية</label>
+                            <input type="number" id="expired-units-input" value="25" class="w-full p-2 border rounded focus:ring-2 focus:ring-red-500 outline-none">
+                        </div>
+                        <button onclick="calculateExpiryRate()" class="w-full bg-red-500 text-white font-bold py-2 rounded hover:bg-red-600 transition">احسب المعدل</button>
+                    </div>
+                    <div class="mt-4 p-3 bg-red-50 rounded text-center">
+                        <span class="block text-gray-600 text-xs">النتيجة</span>
+                        <span id="expiry-rate-result" class="text-2xl font-bold text-red-700">5.0%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: ORIGINAL POLICY PDF -->
+        <section id="section-pdf" class="hidden fade-in">
+            <div class="mb-8 border-b pb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">خامساً: الوثيقة الأصلية (للعرض المباشر)</h2>
+            </div>
+            <div class="w-full h-[80vh] min-h-[500px] border-4 border-gray-200 rounded-xl overflow-hidden shadow-xl">
+                <iframe src="blood_bank_policy.pdf" class="w-full h-full" frameborder="0">
+                    متصفحك لا يدعم عرض ملفات PDF المدمجة. يمكنك <a href="blood_bank_policy.pdf" class="text-red-600 font-bold">تحميل الملف من هنا</a>.
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-auto">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">تم إنشاء هذه المنصة التفاعلية بناءً على وثيقة سياسات بنك الدم - الهيئة العامة للتأمين الصحي</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // --- State Management ---
+        const appState = {
+            currentTab: 'principles',
+            rejectionData: {
+                labels: ['انتهاء الصلاحية', 'إيجابية الفيروسات', 'تكسير (Haemolysis)', 'دهون (Lipemia)', 'صفراء (Icterus)', 'إيجابي كومبس', 'عدم اكتمال الحجم'],
+                data: [35, 10, 15, 20, 10, 5, 5],
+                colors: ['#9CA3AF', '#EF4444', '#F87171', '#FBBF24', '#FCD34D', '#60A5FA', '#34D399'],
+                descriptions: {
+                    'انتهاء الصلاحية': 'الوحدات التي تجاوزت المدة المسموح بها للتخزين ولم يتم استخدامها.',
+                    'إيجابية الفيروسات': 'الوحدات التي أثبتت التحاليل احتوائها على فيروسات (مثل الكبد الوبائي B/C أو الإيدز).',
+                    'تكسير (Haemolysis)': 'تلف وتكسر كرات الدم الحمراء داخل الكيس، مما يجعل الدم غير صالح للنقل وقد يسبب خطورة للمريض.',
+                    'دهون (Lipemia)': 'ظهور مصل الدم بلون حليبي نتيجة ارتفاع نسبة الدهون عند المتبرع.',
+                    'صفراء (Icterus)': 'ارتفاع نسبة البيليروبين (الصفراء) في دم المتبرع، مما يشير لمشاكل صحية ويستوجب استبعاد الوحدة.',
+                    'إيجابي كومبس': 'وجود أجسام مضادة غير متوقعة في دم المتبرع (Coombs Positive)، مما قد يسبب تفاعلات مناعية للمريض.',
+                    'عدم اكتمال الحجم': 'توقف عملية التبرع قبل الوصول للحجم المطلوب، مما يخل بنسبة مانع التجلط إلى الدم فتصبح الوحدة غير صالحة.'
+                }
+            }
+        };
+
+        let rejectionChartInstance = null;
+
+        // --- Navigation Logic ---
+        function switchTab(tabId) {
+            appState.currentTab = tabId;
+            ['principles', 'operations', 'quality', 'kpi', 'pdf'].forEach(id => {
+                document.getElementById(`section-${id}`).classList.add('hidden');
+                document.getElementById(`tab-${id}`).classList.replace('active-tab', 'inactive-tab');
+            });
+            document.getElementById(`section-${tabId}`).classList.remove('hidden');
+            document.getElementById(`tab-${tabId}`).classList.replace('inactive-tab', 'active-tab');
+            if (tabId === 'quality') {
+                renderRejectionChart();
+            }
+        }
+
+        // --- Chart.js Implementation (Quality Section) ---
+        function renderRejectionChart() {
+            const ctx = document.getElementById('rejectionChart').getContext('2d');
+            if (rejectionChartInstance) rejectionChartInstance.destroy();
+            rejectionChartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: appState.rejectionData.labels,
+                    datasets: [{
+                        data: appState.rejectionData.data,
+                        backgroundColor: appState.rejectionData.colors,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: { font: { family: 'Cairo', size: 12 } }
+                        },
+                        tooltip: {
+                            callbacks: { label: function(context) { return ` ${context.label}: ${context.raw}%`; } }
+                        }
+                    },
+                    onClick: (evt, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const label = appState.rejectionData.labels[index];
+                            updateRejectionDetails(label);
+                        }
+                    }
+                }
+            });
+        }
+
+        // --- Dynamic Content Update (Quality Section) ---
+        function updateRejectionDetails(label) {
+            const desc = appState.rejectionData.descriptions[label];
+            const container = document.getElementById('rejection-details');
+            container.innerHTML = `
+                <div class="bg-white p-4 rounded border-r-4 border-red-500 shadow-sm fade-in">
+                    <h4 class="font-bold text-lg text-gray-800 mb-2">${label}</h4>
+                    <p class="text-gray-600">${desc}</p>
+                </div>
+            `;
+        }
+
+        // --- Calculator Logic (KPI Section) ---
+        function calculateViralRate() {
+            const total = parseFloat(document.getElementById('total-donations-input').value);
+            const positive = parseFloat(document.getElementById('positive-cases-input').value);
+            if (total > 0) {
+                const rate = ((positive / total) * 100).toFixed(2);
+                document.getElementById('viral-rate-result').innerText = rate + '%';
+            } else {
+                document.getElementById('viral-rate-result').innerText = 'خطأ';
+            }
+        }
+
+        function calculateExpiryRate() {
+            const total = parseFloat(document.getElementById('total-stock-input').value);
+            const expired = parseFloat(document.getElementById('expired-units-input').value);
+            if (total > 0) {
+                const rate = ((expired / total) * 100).toFixed(2);
+                document.getElementById('expiry-rate-result').innerText = rate + '%';
+            } else {
+                document.getElementById('expiry-rate-result').innerText = 'خطأ';
+            }
+        }
+
+        // --- Initialization ---
+        document.addEventListener('DOMContentLoaded', () => {
+            switchTab('principles');
+        });
+    </script>
+</body>
+</html>
